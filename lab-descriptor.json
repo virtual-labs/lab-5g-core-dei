@@ -1,141 +1,118 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Electronics and Communication Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electronics-and-communications",
+    "code": "ECE"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
+  "lab": "5G Core Network Virtual Laboratory",
+  "lab_display_name": "5G Core Network Virtual Laboratory",
+  "phase": "3-ext",
+  "collegeName": "DLBG",
+  "baseUrl": "5g-core.vlabs.ac.in",
+  "introduction": "The 5G Core Network (5G-CN) is the \"brain\" of the mobile network, running on cloud-native software. It handles authentication, data routing, security, and session management. This foundational backbone of the 5G system, relies on Service-Based Architecture (SBA). Where the SBA architecture elements are modular, reusable, cloud-native \"Network Functions\" (NFs), that communicate via APIs. It separates the control plane (decisions and signaling) from the user plane (data traffic handling), allowing for better resource routing and latency reduction",
+  "experiments": [
     {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
+      "name": "Implement Service Based Architecture (SBA)",
+      "short-name": "sba",
+      "repo": "https://github.com/virtual-labs/exp-sba-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Implementation of Core Network (CN) Functions (NFV)",
+      "short-name": "core-network-functions",
+      "repo": "https://github.com/virtual-labs/exp-core-network-functions-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Deployments Basic Core Network (SDN)",
+      "short-name": "deployments-basic-core",
+      "repo": "https://github.com/virtual-labs/exp-deployments-basic-core-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Demonstrate Interface Management Procedures",
+      "short-name": "interface-management",
+      "repo": "https://github.com/virtual-labs/exp-interface-management-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
+      "name": "Demonstrate Registration Management Procedures",
+      "short-name": "registration-management",
+      "repo": "https://github.com/virtual-labs/exp-registration-management-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Demonstrate Connection Management Procedures",
+      "short-name": "connection-management",
+      "repo": "https://github.com/virtual-labs/exp-connection-management-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Demonstrate Session Management Procedures",
+      "short-name": "session-management",
+      "repo": "https://github.com/virtual-labs/exp-session-management-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Demonstrate NRF Management Procedures",
+      "short-name": "nrf-management",
+      "repo": "https://github.com/virtual-labs/exp-nrf-management-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Configure User Profile Management Procedure",
+      "short-name": "user-profile-management",
+      "repo": "https://github.com/virtual-labs/exp-user-profile-management-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Implement Connection of gNB to Core Network",
+      "short-name": "connection-gnb-core",
+      "repo": "https://github.com/virtual-labs/exp-connection-gnb-core-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Implement Registration of UE's with the Core Network",
+      "short-name": "registration-ue",
+      "repo": "https://github.com/virtual-labs/exp-registration-ue-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     }
   ],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      "The 5G Core Network Virtual Laboratory is designed for learners interested in 5G mobile communication, wireless networks, computer networks, network virtualization, and next-generation communication systems.",
+      "UG 3rd Year Students",
+      "UG 4th Year Students",
+      "Learners interested in practical 5G networking"
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "The 5G Core Network Virtual Laboratory is designed for learners interested in 5G mobile communication, wireless networks, computer networks, network virtualization, and next-generation communication systems.",
+      "PG Students",
+      "M.Tech./M.E. students",
+      "Learners interested in practical 5G networking"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "The 5G Core Network Virtual Lab adopts a constructivist pedagogical approach, fostering active learning by integrating theoretical foundations with experiential practice to achieve higher-order cognitive outcome. Students gain deep comprehension of 5G architecture, protocols (e.g., NGAP, NAS, SBI per 3GPP). Key objectives include:<ul><li>Conceptual Mastery: Understand core concepts via visualized information flows and dashboards.</li><li>Skill Development: Apply hands-on configuration, troubleshooting, and performance analysis.</li><li>Study the principles of Service-Based Architecture (SBA).</li><li>Understand the roles and interactions of major 5G Network Functions.</li><li>Understand the communication and data exchange between the UE, gNB, and 5G Core Network, and perform bandwidth and latency measurements to evaluate the performance of the 5G network.</li><li>Critical Thinking: Evaluate real-world scenarios and innovate solutions via negative testing.</li><li>Transferable Competence: Bridge academia-industry gap, enabling independent real-lab execution and lifelong 5G proficiency.</li></ul>",
   "courseAlignment": {
     "description": "The syllabi of this lab aligns to the following universities in India.",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+      "AICTE Revised Model Curriculum for UG Degree Course in Electronics and Communication Engineering, ECEL09, Advanced Mobile Communications, Pg#121 of Model Curriculum",
+      "National Institute of Technology Calicut (NITC), EC6306 E, Communication Systems, Standards and Practice",
+      "Dayalbagh Educational Institute Agra, ITV 404, Connected Cars & Vehicular networks",
+      "St. Anne's College of Engineering and Technology, Tirunelveli, CEC331, 4G-5G Communication Networks",
+      "Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad, 23ECC107, 5G and Beyond",
+      "Dr. Mahalingam College of Engineering and Technology (DRMCET), Pollachi, 24COT102, Wireless Broadband Networks"
     ]
-
- 
+  }
 }
