@@ -8,84 +8,84 @@
   "lab_display_name": "5G Core Network Virtual Laboratory",
   "phase": "3-ext",
   "collegeName": "DLBG",
-  "baseUrl": "5g-core.vlabs.ac.in",
+  "baseUrl": "5g-core-dei.vlabs.ac.in",
   "introduction": "The 5G Core Network (5G-CN) is the \"brain\" of the mobile network, running on cloud-native software. It handles authentication, data routing, security, and session management. This foundational backbone of the 5G system, relies on Service-Based Architecture (SBA). Where the SBA architecture elements are modular, reusable, cloud-native \"Network Functions\" (NFs), that communicate via APIs. It separates the control plane (decisions and signaling) from the user plane (data traffic handling), allowing for better resource routing and latency reduction",
   "experiments": [
     {
       "name": "Implement Service Based Architecture (SBA)",
       "short-name": "sba",
       "repo": "https://github.com/virtual-labs/exp-sba-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Implementation of Core Network (CN) Functions (NFV)",
       "short-name": "core-network-functions",
       "repo": "https://github.com/virtual-labs/exp-core-network-functions-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Deployments Basic Core Network (SDN)",
       "short-name": "deployments-basic-core",
       "repo": "https://github.com/virtual-labs/exp-deployments-basic-core-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Demonstrate Interface Management Procedures",
       "short-name": "interface-management",
       "repo": "https://github.com/virtual-labs/exp-interface-management-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Demonstrate Registration Management Procedures",
       "short-name": "registration-management",
       "repo": "https://github.com/virtual-labs/exp-registration-management-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Demonstrate Connection Management Procedures",
       "short-name": "connection-management",
       "repo": "https://github.com/virtual-labs/exp-connection-management-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Demonstrate Session Management Procedures",
       "short-name": "session-management",
       "repo": "https://github.com/virtual-labs/exp-session-management-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Demonstrate NRF Management Procedures",
       "short-name": "nrf-management",
       "repo": "https://github.com/virtual-labs/exp-nrf-management-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Configure User Profile Management Procedure",
       "short-name": "user-profile-management",
       "repo": "https://github.com/virtual-labs/exp-user-profile-management-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Implement Connection of gNB to Core Network",
       "short-name": "connection-gnb-core",
       "repo": "https://github.com/virtual-labs/exp-connection-gnb-core-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
       "name": "Implement Registration of UE's with the Core Network",
       "short-name": "registration-ue",
       "repo": "https://github.com/virtual-labs/exp-registration-ue-dei",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     }
   ],
